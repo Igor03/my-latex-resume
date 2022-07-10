@@ -1,0 +1,89 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%x'
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\usepackage[hidelinks]{hyperref}
+
+\name{José Igor de Carvalho} % YOUR NAME
+\address{+55 85986657906 \\ j.igor@outlook.com } % YOUR CONTACT INFORMATION
+\address{\href{https://linkedin.com/in/joseigor}{linkedin.com/in/joseigor} \\ \href{https://github.com/Igor03}{github.com/Igor03}
+}
+
+\address{261 115 St, Maracanaú, Ceará \\ 61936150, Brazil} % YOUR ADDRESS
+
+\begin{document}
+
+    % ==========================================
+    % EDUCATION SECTION
+    % ==========================================
+    \begin{rSection}{Job Objective}
+        Software Engineer
+    \end{rSection}
+
+    % ==========================================
+    % EDUCATION SECTION
+    % ==========================================
+    \begin{rSection}{Education}
+        {\bf \href{https://ifce.edu.br/}{Federal Institute of Ceará, Brazil}} \hfill { December 2014 - Present} 
+        \\ Bachelor's degree in Computer Science
+    \end{rSection}
+
+    % ==========================================
+    % WORK EXPERIENCE SECTION
+    % ==========================================
+    \begin{rSection}{Work Experience}
+        \begin{rSubsection}{\href{https://www.linkedin.com/company/Instituto-atlantico/}{Instituto Atlântico}}{May 2021 - Present}{Software Developer}{}
+            \item I am currently using C\# and Microsoft .NET Core to build Web APIs. In addition, I use Oracle PL/SQL to create and analyze Database Packages, Procedures and Functions. I am also having daily contact with unit tests using MSTest, Cloud Computing services provided by Pivotal Cloud Foundry (PCF), CI/CD techniques with Gitlab, code versioning with Git, Agile methodologies and Microsoft TFS, design patterns, analysis of legacy codebases (both C\# and Oracle PL/SQL) and reading/creation of technical documents using Atlassian Confluence.
+        \end{rSubsection}
+        \begin{rSubsection}{\href {https://www.linkedin.com/company/empreendimentos-pague-menos-sa/}{Empreendimentos Pague Menos SA}}{September 2019 - May 2021}{Software Developer}{}
+            \item I utilized C\#, Microsoft .NET Core and Docker to create and maintain Web APIs, which were integrated to processes automations' workflows. Also, I used Python and other programming tools like Pentaho Data Integration (PDI) to build automation apps that served a number of divisions in the organization. Furthermore, I had some experience with React building frontend web applications.
+        \end{rSubsection}
+    \end{rSection}
+
+    % ==========================================
+    % INTERNSHIPS & VOLUNTEER JOBS SECTION
+    % ==========================================
+    \begin{rSection}{Internships}
+        \begin{rSubsection}{\href {https://www.linkedin.com/company/empreendimentos-pague-menos-sa/}{Empreendimentos Pague Menos SA}}{November 2018 - September 2019}{Software Developer Intern}{}
+            \item I developed Robotics Process Automation (RPA) applications, using the RPA tool Automation Anywhere, in order to automate tasks within the divisions of the organization.
+        \end{rSubsection}
+        \begin{rSubsection}{\href{https://www.linkedin.com/company/cnpq---mct/}{National Council for Scientific and Technological Development}}{August 2017 - January 2018}{Research and Development Intern}{}
+            \item I researched about Genetic Algorithms (GA) as well as maintain a web system, based in Java, that used GA techniques in its core.
+        \end{rSubsection}
+    \end{rSection}
+
+    % ==========================================
+    % TECHNICAL KNOWLEDGE SECTION
+    % ==========================================
+    \begin{rSection}{Technical Knowledge}
+        \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+         Programming Languages & \href{https://docs.microsoft.com/pt-br/dotnet/csharp/}{C\#}, \href{https://www.python.org/}{Python}, \href{https://developer.mozilla.org/pt-BR/docs/Web/JavaScript}{Javascript}, \href{https://www.java.com/}{Java} \\
+            Databases \& ORMs \ & \href{https://www.microsoft.com/sql-server/}{MS SQLServer}, \href{https://www.oracle.com/database/}{Oracle Database}, \href{https://docs.microsoft.com/ef/core/}{EF Core}, \href{https://github.com/DapperLib/Dapper}{Dapper}, \href{https://pypi.org/project/pyodbc/}{Pyodbc}  \\
+            Software \& Tools \ & \href{https://visualstudio.microsoft.com/}{Visual Studio}, \href{https://docs.microsoft.com/azure/devops/}{TFS}, \href{https://gitlab.com/}{Gitlab}, \href{https://www.automationanywhere.com/}{Automation Anywhere}  \\
+        \end{tabular}
+    \end{rSection}
+\end{document}
